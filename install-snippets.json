@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/tuhuateng/lpmoo-mcp",
+  "launchPath": "bin/lpmoo-mcp.mjs",
+  "installCommand": "git clone https://github.com/tuhuateng/lpmoo-mcp.git\ncd lpmoo-mcp\nnpm install\nnpm test",
+  "mcpJson": "{\n  \"mcpServers\": {\n    \"lpmoo\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"github:tuhuateng/lpmoo-mcp\"]\n    }\n  }\n}",
+  "codexToml": "[mcp_servers.lpmoo]\ncommand = \"npx\"\nargs = [\"-y\", \"github:tuhuateng/lpmoo-mcp\"]\n",
+  "nodeMcpJson": "{\n  \"mcpServers\": {\n    \"lpmoo\": {\n      \"command\": \"node\",\n      \"args\": [\n        \"/ABS/PATH/TO/lpmoo-mcp/bin/lpmoo-mcp.mjs\"\n      ]\n    }\n  }\n}"
+}
